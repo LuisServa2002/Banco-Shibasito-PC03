@@ -29,3 +29,18 @@ db/
 .DS_Store
 Thumbs.db
 EOF
+
+# Binarios compilados (no deben estar en el repo)
+*.class
+bin/
+
+# Cache de Python (no deben estar en el repo)
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# Bases de datos locales (excepto reniec.db de prueba)
+db/
