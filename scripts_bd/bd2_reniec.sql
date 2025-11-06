@@ -1,18 +1,26 @@
--- Esquema para la Base de Datos de RENIEC (bd2_reniec)
-
--- Tabla de Personas
--- Almacena la información de los ciudadanos para validación de identidad.
 CREATE TABLE Personas (
-    dni VARCHAR(8) PRIMARY KEY,
-    apellidos VARCHAR(255) NOT NULL,
-    nombres VARCHAR(255) NOT NULL,
-    fecha_nacimiento DATE NOT NULL,
-    sexo CHAR(1) NOT NULL, -- 'M' o 'F'
-    direccion VARCHAR(255)
+    dni TEXT PRIMARY KEY,
+    apellido_paterno TEXT NOT NULL,
+    apellido_materno TEXT NOT NULL,
+    nombres TEXT NOT NULL,
+    fecha_nacimiento TEXT NOT NULL,
+    sexo TEXT NOT NULL,
+    direccion TEXT NOT NULL
 );
-
--- Poblar con algunos datos de ejemplo
-INSERT INTO Personas (dni, apellidos, nombres, fecha_nacimiento, sexo, direccion)
-VALUES
-    ('12345678', 'QUISPE GONZALES', 'JUAN CARLOS', '1990-05-15', 'M', 'AV. SIEMPRE VIVA 123'),
-    ('87654321', 'RAMIREZ FLORES', 'MARIA ELENA', '1985-10-20', 'F', 'CALLE LOS PINOS 456');
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE Personas (
+    dni TEXT PRIMARY KEY,
+    apellido_paterno TEXT NOT NULL,
+    apellido_materno TEXT NOT NULL,
+    nombres TEXT NOT NULL,
+    fecha_nacimiento TEXT NOT NULL,
+    sexo TEXT NOT NULL,
+    direccion TEXT NOT NULL
+);
+INSERT INTO Personas VALUES('45678912','GARCÍA','FLORES','MARÍA ELENA','1990-07-15','F','Av. Universitaria 1234');
+INSERT INTO Personas VALUES('78901234','RAMÍREZ','QUISPE','JUAN CARLOS','1985-03-22','M','Calle San Martín 456');
+INSERT INTO Personas VALUES('12345678','TORRES','MENDOZA','LUIS ALBERTO','1992-11-05','M','Av. Sacsayhuamán 789');
+INSERT INTO Personas VALUES('23456789','CHÁVEZ','ROJAS','ANA SOFÍA','1998-06-30','F','Jr. Huancayo 321');
+INSERT INTO Personas VALUES('34567890','PÉREZ','VÁSQUEZ','CARLOS JUAN','1979-12-10','M','Av. Las Palmeras 101');
+COMMIT;
