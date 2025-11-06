@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.shibasito.banco.app-mergeDebugResources-34:/layout/activity_login.xml",
+        "source": "com.shibasito.banco.app-main-37:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-mergeDebugResources-34:/layout/item_deuda.xml",
+        "source": "com.shibasito.banco.app-main-37:/layout/item_deuda.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-mergeDebugResources-34:/layout/activity_balance.xml",
+        "source": "com.shibasito.banco.app-main-37:/layout/activity_balance.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-mergeDebugResources-34:/layout/activity_loan.xml",
+        "source": "com.shibasito.banco.app-main-37:/layout/activity_loan.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-mergeDebugResources-34:/layout/activity_home.xml",
+        "source": "com.shibasito.banco.app-main-37:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-mergeDebugResources-34:/layout/item_chat_bot.xml",
+        "source": "com.shibasito.banco.app-main-37:/layout/item_chat_bot.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-mergeDebugResources-34:/layout/item_chat_user.xml",
+        "source": "com.shibasito.banco.app-main-37:/layout/item_chat_user.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-mergeDebugResources-34:/layout/activity_debt.xml",
+        "source": "com.shibasito.banco.app-main-37:/layout/activity_debt.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-mergeDebugResources-34:/layout/item_transaccion.xml",
+        "source": "com.shibasito.banco.app-main-37:/layout/item_transaccion.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-mergeDebugResources-34:/layout/activity_qrscan.xml",
+        "source": "com.shibasito.banco.app-main-37:/layout/activity_qrscan.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-mergeDebugResources-34:/layout/activity_chat.xml",
+        "source": "com.shibasito.banco.app-main-37:/layout/activity_chat.xml"
+    }
+]

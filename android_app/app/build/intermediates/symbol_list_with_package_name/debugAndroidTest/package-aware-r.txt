@@ -1,0 +1,3 @@
+com.shibasito.banco.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

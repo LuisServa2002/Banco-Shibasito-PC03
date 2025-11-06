@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "com.shibasito.banco.app-merged_res-35:/layout_activity_balance.xml.flat",
+        "source": "com.shibasito.banco.app-main-37:/layout/activity_balance.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-merged_res-35:/drawable_ic_warning.xml.flat",
+        "source": "com.shibasito.banco.app-main-37:/drawable/ic_warning.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-merged_res-35:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.shibasito.banco.app-main-37:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-merged_res-35:/layout_activity_chat.xml.flat",
+        "source": "com.shibasito.banco.app-main-37:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.shibasito.banco.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.shibasito.banco.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-merged_res-35:/layout_item_deuda.xml.flat",
+        "source": "com.shibasito.banco.app-main-37:/layout/item_deuda.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-merged_res-35:/drawable_chat_bubble_user.xml.flat",
+        "source": "com.shibasito.banco.app-main-37:/drawable/chat_bubble_user.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-merged_res-35:/layout_item_chat_user.xml.flat",
+        "source": "com.shibasito.banco.app-main-37:/layout/item_chat_user.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-merged_res-35:/layout_activity_debt.xml.flat",
+        "source": "com.shibasito.banco.app-main-37:/layout/activity_debt.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-merged_res-35:/drawable_chat_bubble_bot.xml.flat",
+        "source": "com.shibasito.banco.app-main-37:/drawable/chat_bubble_bot.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-merged_res-35:/layout_activity_login.xml.flat",
+        "source": "com.shibasito.banco.app-main-37:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-merged_res-35:/layout_item_transaccion.xml.flat",
+        "source": "com.shibasito.banco.app-main-37:/layout/item_transaccion.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-merged_res-35:/layout_activity_home.xml.flat",
+        "source": "com.shibasito.banco.app-main-37:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-merged_res-35:/layout_activity_loan.xml.flat",
+        "source": "com.shibasito.banco.app-main-37:/layout/activity_loan.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-merged_res-35:/layout_item_chat_bot.xml.flat",
+        "source": "com.shibasito.banco.app-main-37:/layout/item_chat_bot.xml"
+    },
+    {
+        "merged": "com.shibasito.banco.app-merged_res-35:/layout_activity_qrscan.xml.flat",
+        "source": "com.shibasito.banco.app-main-37:/layout/activity_qrscan.xml"
+    }
+]

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Banco Shibasito</string>
+    
+    <!-- Login -->
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="dni_hint">DNI</string>
+    <string name="account_hint">Número de Cuenta</string>
+    <string name="login_button">Ingresar</string>
+    <string name="login_error">Error al iniciar sesión</string>
+    
+    <!-- Home -->
+    <string name="welcome">Bienvenido, %1$s</string>
+    <string name="menu_chat">Chat Banco</string>
+    <string name="menu_balance">Consultar Saldo</string>
+    <string name="menu_qr">Pagar con QR</string>
+    <string name="menu_loan">Solicitar Préstamo</string>
+    <string name="menu_debt">Mis Deudas</string>
+    <string name="menu_logout">Cerrar Sesión</string>
+    
+    <!-- Chat -->
+    <string name="chat_title">Chat Banco</string>
+    <string name="chat_send">Enviar</string>
+    <string name="chat_message_hint">Escribe tu mensaje...</string>
+    <string name="chat_bot_name">ChatB</string>
+    <string name="chat_loading">Cargando...</string>
+    
+    <!-- Balance -->
+    <string name="balance_title">Mi Cuenta</string>
+    <string name="balance_label">Saldo Disponible</string>
+    <string name="transactions_title">Transacciones Recientes</string>
+    <string name="transaction_type_deposit">Depósito</string>
+    <string name="transaction_type_withdrawal">Retiro</string>
+    <string name="transaction_type_transfer">Transferencia</string>
+    <string name="transaction_type_commission">Comisión</string>
+    
+    <!-- QR -->
+    <string name="qr_title">Pagar con QR</string>
+    <string name="qr_scan">Escanear QR</string>
+    <string name="qr_generate">Generar QR</string>
+    <string name="qr_scan_hint">Escanea el código QR para pagar</string>
+    <string name="qr_amount_hint">Monto</string>
+    <string name="qr_destination_hint">Cuenta Destino</string>
+    <string name="qr_pay_button">Pagar</string>
+    <string name="qr_success">Transacción Exitosa</string>
+    
+    <!-- Loan -->
+    <string name="loan_title">Solicitar Préstamo</string>
+    <string name="loan_amount_hint">Monto del Préstamo</string>
+    <string name="loan_term_hint">Plazo (meses)</string>
+    <string name="loan_request_button">Solicitar</string>
+    <string name="loan_success">Préstamo solicitado exitosamente</string>
+    <string name="loan_error">Error al solicitar préstamo</string>
+    
+    <!-- Debt -->
+    <string name="debt_title">Mis Deudas</string>
+    <string name="debt_no_debts">No tienes deudas pendientes</string>
+    <string name="debt_pay_button">Pagar</string>
+    
+    <!-- Common -->
+    <string name="loading">Cargando...</string>
+    <string name="error">Error</string>
+    <string name="success">Éxito</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="retry">Reintentar</string>
+</resources>
+

@@ -23,7 +23,7 @@ sys.path.append(ROOT_DIR)
 from src.python.common.rpc_client import RpcClient
 
 # Configuración
-PROXY_HOST = "127.0.0.1"
+PROXY_HOST = "0.0.0.0" #Ojito en todas las interfaces
 PROXY_PORT = 9876
 BUFFER_SIZE = 8192
 
