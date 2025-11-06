@@ -1,12 +1,3 @@
-CREATE TABLE Personas (
-    dni TEXT PRIMARY KEY,
-    apellido_paterno TEXT NOT NULL,
-    apellido_materno TEXT NOT NULL,
-    nombres TEXT NOT NULL,
-    fecha_nacimiento TEXT NOT NULL,
-    sexo TEXT NOT NULL,
-    direccion TEXT NOT NULL
-);
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE Personas (
